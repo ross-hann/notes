@@ -1,5 +1,5 @@
 +++
-title = 'Get Metadata for the tables'
+title = 'Copy from one table to another'
 date = 2023-12-12T11:11:22-06:00
 category = ['sql']
 draft = false

@@ -2,3 +2,26 @@ baseURL = 'https://ross-hann.github.io/notes/'
 languageCode = 'en-us'
 title = 'My Notes'
 theme ='PaperMod'
+
+params:
+  defaultTheme: auto # dark, light
+  comments: true
+  hideSummary: true
+
+profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "https://twitter.com/rjhann_/photo"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+    
+socialIcons:
+    - name: twitter
+      url: "https://twitter.com/rjhann_"
