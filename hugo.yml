@@ -15,19 +15,7 @@ params:
   defaultTheme: auto # dark, light
   comments: true
   hideSummary: true
-
-  profileMode:
-    enabled: true 
-    imageUrl: "https://twitter.com/rjhann_/photo"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-    
+ 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/rjhann_"
