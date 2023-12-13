@@ -3,12 +3,12 @@ languageCode = 'en-us'
 title = 'My Notes'
 theme ='PaperMod'
 
-params:
+[params]
   defaultTheme = auto # dark, light
   comments = true
   hideSummary = true
 
-profileMode:
+[profileMode]
     enabled = false # needs to be explicitly set
     title = ExampleSite
     subtitle = "This is subtitle"
@@ -22,6 +22,6 @@ profileMode:
       - name = Tags
         url = tags
     
-socialIcons:
+[socialIcons]
     - name = twitter
       url = "https://twitter.com/rjhann_"
